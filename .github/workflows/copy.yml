@@ -5,7 +5,7 @@ on:
       source:
         description: 'https://hub.docker.com/layers/starrocks'     
         required: true
-        default: 'https://hub.docker.com/layers/starrocks'
+        default: 'hub.docker.com/layers/starrocks'
       destination:
         description: 'registry.cn-hangzhou.aliyuncs.com'
         required: true
